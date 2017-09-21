@@ -1,0 +1,18 @@
+{
+  "name": "serverless-dashboard",
+  "main": "./lib/serverless-dashboard",
+  "version": "0.0.0",
+  "description": "A short description of your package",
+  "keywords": [],
+  "activationCommands": {
+    "atom-workspace": "serverless-dashboard:open-management-panel"
+  },
+  "repository": "https://github.com/atom/serverless-dashboard",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "dependencies": {
+    "etch": "^0.12.6"
+  }
+}

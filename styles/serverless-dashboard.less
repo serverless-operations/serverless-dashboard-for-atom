@@ -1,0 +1,130 @@
+// The ui-variables file is provided by base themes provided by Atom.
+//
+// See https://github.com/atom/atom-dark-ui/blob/master/styles/ui-variables.less
+// for a full listing of what's available.
+@import "ui-variables";
+
+@styleguide-spacing: @component-padding *1.5;
+@styleguide-bg: darken(@base-background-color, 2%);
+
+.serverless-dashboard {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+
+  h1 {
+    font-size: 2em;
+    margin: 0 0 .5em 0;
+    color: @text-color-highlight;
+  }
+
+  a {
+    text-decoration: underline;
+  }
+
+  .serverless-dashboard-header {
+    padding: @styleguide-spacing;
+    border-bottom: 1px solid @base-border-color;
+    h1 {
+      font-size: 2em;
+      margin: 0 0 .5em 0;
+      color: @text-color-highlight;
+    }
+    p {
+      font-size: 1.2em;
+      &:last-of-type {
+        margin-bottom: 0;
+      }
+    }
+  }
+
+  .serverless-dashboard-sections {
+    flex: 1;
+    overflow: auto;
+    flex-wrap: wrap;
+    padding: @styleguide-spacing @styleguide-spacing 0 @styleguide-spacing;
+
+    & > section {
+      background-color: @styleguide-bg;
+      padding: 0;
+      border-bottom: 1px solid @base-border-color;
+      border-top: none;
+
+      &:last-child {
+        margin-bottom: 0;
+      }
+
+      &.collapsed {
+        background-color: @base-background-color;
+        > .section-heading {
+          display: block;
+          margin: 0;
+          padding-bottom: @styleguide-spacing;
+          color: @text-color;
+          &:hover {
+            color: @text-color-highlight;
+            background-color: @background-color-highlight;
+          }
+          &:active {
+            background-color: @base-background-color;
+          }
+        }
+        > * {
+          display: none
+        }
+      }
+    }
+
+    .header-operations {
+      display: flex;
+      .btn {
+        margin-left:  @component-padding;
+        font-weight: bold;
+      }
+      .danger {
+        color: #e55934;
+      }
+    }
+
+    .section-heading {
+      font-weight: normal;
+      font-size: 1.8em;
+      margin-right: auto;
+      color: @text-color-highlight;
+    }
+
+    .setting-title {}
+
+    .control-group {
+      margin-top:  @component-padding*3;
+    }
+
+    .env-picker {
+      display: flex;
+      flex-wrap: wrap;
+      margin: 0 -@component-padding;
+    }
+
+    .env-picker-item {
+      flex: 1;
+      min-width: 320px; // Enough for the UI Theme description
+      padding: 0 @component-padding;
+    }
+
+    select.form-control {
+      color: @text-color;
+      border-color: @button-border-color;
+      background-color: @button-background-color;
+      &:hover,
+      &:focus {
+        box-shadow: none;
+        background-color: @button-background-color-hover;
+      }
+    }
+
+    .select-container {
+      display: flex;
+      align-items: stretch;
+    }
+  }
+}
