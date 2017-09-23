@@ -1,4 +1,3 @@
-# Serverless Dashboard For Atom Editor Plugin
+# Serverless Dashboard For Atom Editor
 
 **This is WIP Project**
-
