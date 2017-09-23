@@ -152,5 +152,22 @@
         }
       }
     }
+
+    .console-block {
+      @terminal-background-color: #000000;
+      @terminal-text-color: #00af00;
+
+      .console-content {
+        font-family: Menlo, "Deja Vu Sans Mono", Consolas, monospace;
+        min-width: 0;
+        margin: @component-padding / 2;
+        border-radius: @component-border-radius;
+        border: 1px solid @tool-panel-border-color;
+        padding: @component-padding;
+        overflow: hidden;
+        background: @terminal-background-color;
+        color: @terminal-text-color;
+      }
+    }
   }
 }

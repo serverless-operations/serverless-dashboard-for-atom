@@ -12,7 +12,7 @@
       "label": "Packages",
       "submenu": [
         {
-          "label": "Serverless Dashbord",
+          "label": "Serverless Dashboard",
           "submenu": [
             {
               "label": "Open Management Panel",
