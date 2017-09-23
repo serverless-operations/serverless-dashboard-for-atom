@@ -79,10 +79,6 @@
       display: flex;
       .btn {
         margin-left:  @component-padding;
-        font-weight: bold;
-      }
-      .danger {
-        color: #e55934;
       }
     }
 
@@ -125,6 +121,36 @@
     .select-container {
       display: flex;
       align-items: stretch;
+    }
+
+    .operation-block {
+      display: flex;
+      flex-wrap: wrap;
+      border-radius: @component-border-radius;
+      padding: @component-padding / 2;
+      .control-group {
+        position: relative;
+        flex: 1 1 300px;
+
+        .control-content {
+          min-width: 0;
+          margin: @component-padding / 2;
+          border-radius: @component-border-radius;
+          border: 1px solid @tool-panel-border-color;
+          padding: @component-padding;
+          background: @base-background-color;
+          overflow: hidden;
+        }
+      }
+      .functions-block {
+        .function-header {
+          display: flex;
+
+          .apply-block {
+            margin-left: auto;
+          }
+        }
+      }
     }
   }
 }
