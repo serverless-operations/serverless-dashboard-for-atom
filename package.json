@@ -12,7 +12,21 @@
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
   },
+  "scripts": {
+    "lint": "eslint . --cache"
+  },
   "dependencies": {
-    "etch": "^0.12.6"
+    "core-decorators": "^0.20.0",
+    "etch": "^0.12.6",
+    "lodash": "^4.17.4",
+    "react": "^16.1.0"
+  },
+  "devDependencies": {
+    "eslint": "^4.11.0",
+    "eslint-config-standard": "^10.2.1",
+    "eslint-plugin-import": "^2.8.0",
+    "eslint-plugin-node": "^5.2.1",
+    "eslint-plugin-promise": "^3.6.0",
+    "eslint-plugin-standard": "^3.0.1"
   }
 }
