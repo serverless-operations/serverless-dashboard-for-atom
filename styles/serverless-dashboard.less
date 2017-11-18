@@ -89,7 +89,12 @@
       color: @text-color-highlight;
     }
 
-    .setting-title {}
+    .setting-title {
+      display: flex;
+      .input-text {
+        margin: 0 @component-padding;
+      }
+    }
 
     .control-group {
       margin-top:  @component-padding*3;
