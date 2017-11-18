@@ -83,10 +83,13 @@
     }
 
     .section-heading {
-      font-weight: normal;
-      font-size: 1.8em;
+      display: flex;
       margin-right: auto;
-      color: @text-color-highlight;
+      .section-heading-title {
+        font-weight: normal;
+        font-size: 1.8em;
+        color: @text-color-highlight;
+      }
     }
 
     .setting-title {
