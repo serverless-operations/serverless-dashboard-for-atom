@@ -15,7 +15,7 @@
           "label": "Serverless Dashboard",
           "submenu": [
             {
-              "label": "Open Your serverless.yml",
+              "label": "Open your serverless.yml",
               "command": "serverless-dashboard:open-management-panel"
             }
           ]
