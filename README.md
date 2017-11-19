@@ -7,15 +7,21 @@ This project is inspired by [Serverless Dashbord](https://github.com/serverless/
 <img src="https://raw.githubusercontent.com/horike37/serverless-dashboard-for-atom/master/screenshot.gif" />
 
 ## Installation
+### preparation
+Install [Serverless Framework](https://serverless.com/framework/)
 
+ ```sh
+ npm install -g serverless
+ ```
+    
 ### Command Line
 
 1. Install [Atom](https://atom.io)
 2. In the terminal, install the package via apm:
 
-    ```sh
-    apm install serverless-dashbord
-    ```
+```sh
+apm install serverless-dashbord
+```
 
 ### GUI
 
