@@ -1,10 +1,14 @@
 {
   "name": "serverless-dashboard",
   "main": "./lib/serverless-dashboard",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "This package allows you to deploy and manage your serverless service with Serverless Framework on the editor",
   "keywords": [
-    "serverless", "serverless-framework", "serverless-architectures", "aws-lambda", "aws"
+    "serverless",
+    "serverless-framework",
+    "serverless-architectures",
+    "aws-lambda",
+    "aws"
   ],
   "activationCommands": {
     "atom-workspace": "serverless-dashboard:open-management-panel"
