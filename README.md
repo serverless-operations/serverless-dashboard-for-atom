@@ -21,3 +21,12 @@ Currently, this pakage has supported only AWS, but we will support multi provide
 1. Click the Install tab on the left side
 1. Enter `serverless-dashbord` in the search box and press <kbd>Enter</kbd>
 1. Click the "Install" button that appears
+
+## How to use
+
+### Launch Dashbord
+1. Open Pakages menu
+1. Click `Serverless Dashbord > Open your serverless.yml`
+1. Specify your serverless.yml
+
+### Movie
