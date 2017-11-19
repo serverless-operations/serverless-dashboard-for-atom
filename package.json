@@ -1,7 +1,7 @@
 {
   "name": "serverless-dashboard",
   "main": "./lib/serverless-dashboard",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "This package allows you to deploy and manage your serverless service with Serverless Framework on the editor",
   "keywords": [
     "serverless",
